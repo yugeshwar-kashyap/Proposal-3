@@ -77,7 +77,14 @@
         
         h2 {
             font-size: 1.5em;
-            color: #FFFF00;
+             color: transparent;
+            background-image: linear-gradient(90deg, #ff0000, #ff9900, #ffff00, #33cc33, #3399ff, #9900cc, #ff0000);
+            background-size: 200% 100%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            animation: slideColors 5s linear infinite;
+            text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            position: absolute;
             margin: 20px 0;
             position: absolute;
             bottom: -15px;
@@ -223,7 +230,7 @@
     <!-- Instagram Link Modal -->
     <div id="instagramModal" class="modal">
         <div class="instagram-link">
-            <p>Suruchi, you are my everything! ❤</p>
+            <p>Suruchi, you are my everything! 💖</p>
             <p>Follow me on Instagram:
                  <a href="https://www.instagram.com/devil__king________001/" target="_blank">
                      insta messege
